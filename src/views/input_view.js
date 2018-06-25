@@ -11,7 +11,6 @@ InputView.prototype.bindEvent = function () {
     PubSub.publish('InputView:word-inputted', inputtedWord)
     event.preventDefault();
   })
-
 };
 
 module.exports = InputView;
